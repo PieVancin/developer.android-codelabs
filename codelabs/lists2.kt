@@ -79,7 +79,7 @@ fun main() {
     order3.addAll(items)
     ordersList.add(order3)
 
-
+    // both order 4 and 5 are created using the builder pattern
     val order4 = Order(4).addItem(Noodles()).addItem(Vegetables("Cabbage", "Onion"))
     ordersList.add(order4)
 
