@@ -30,4 +30,14 @@ fun main() {
     // overwrites the existing key
     peopleAges["Fred"] = 31
     println(peopleAges)
+
+    // usage of the forEach function
+    peopleAges.forEach { print("${it.key} is ${it.value}, ") }
+
+    // usage of the map function, to get rid of the last comma
+    println(peopleAges.map { "${it.key} is ${it.value}" }.joinToString(", ") )
+
+    // prints the names with a filter, example of a high order function
+    val filteredNames = peopleAges.filter { it.key.length < 4 }
+	println(filteredNames)
 }
