@@ -27,7 +27,8 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import com.example.android.dessertclicker.databinding.ActivityMainBinding
 
-
+const val KEY_REVENUE = "revenue_key"
+const val KEY_DESSERT_SOLD = "dessert_sold_key"
 const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
@@ -111,6 +112,12 @@ class MainActivity : AppCompatActivity() {
     override fun onRestart() {
         super.onRestart()
         Log.d(TAG, "onRestart Called")
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceStatus(outState)
+
+        Log.d(TAG, "onSaveInstanceState Called")
     }
     /**
      * Updates the score when the dessert is clicked. Possibly shows a new dessert.
