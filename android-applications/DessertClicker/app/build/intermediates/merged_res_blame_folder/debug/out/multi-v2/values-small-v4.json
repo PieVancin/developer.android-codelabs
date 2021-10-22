@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pierr\\AndroidStudioProjects\\android-basics-kotlin-dessert-clicker-app-starter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "/Users/Pierre/Documents/GitHub/developer.android-codelabs/android-applications/DessertClicker/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\pierr\\.gradle\\caches\\transforms-2\\files-2.1\\0a662ee2d3b8d2f04bb5d28620b5e6e8\\material-1.2.1\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/Users/Pierre/.gradle/caches/transforms-2/files-2.1/0a662ee2d3b8d2f04bb5d28620b5e6e8/material-1.2.1/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

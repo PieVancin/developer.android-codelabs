@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceStatus(outState)
+        super.onSaveInstanceState(outState)
 
         Log.d(TAG, "onSaveInstanceState Called")
     }
